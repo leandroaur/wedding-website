@@ -75,7 +75,7 @@
                         <ul class="primary-nav">
                             <li><a href="#intro">Como Nos Conhecemos</a></li>
                             <li><a href="#events">Events</a></li>
-                            <li><a href="#instagram">Instagram</a></li>
+                            <li><a href="#instagram">Lista de Casamento</a></li>
                             <li><a href="#eng-pics">Engagement</a></li>
                             <li class="hidden-sm hidden-xs"><a href="#video-bg">Glimpse of the city</a></li>
                         </ul>
@@ -218,19 +218,39 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h3>Uma imagem vale mais que mil palavras</h3>
-                <p>Nos ajude a registrar o momento, ao tirar fotos use a hashtag
-                    <a href="https://instagram.com/explore/tags/paulabertoluci/" target="_blank">#LeePaula</a>
+                <h3>Para ajudar com nossa lista, não precisa comprar presente, faz um Pix!</h3>
+                <p>
+                    <a href="https://instagram.com/explore/tags/paulabertoluci/" target="_blank"></a>
                 </p>
             </div>
         </div>
         <div class="row section-border wp7">
             <div class="col-md-4 col-md-offset-4">
-                <img src="img/eng_pics/12.jpeg">
+                <img src="img/eng_pics/pix.jpeg">
             </div>
+        </div>
+        <div class="text-center">
+            <h3>Ih estou do celular!</h3>
+            <p>Não tem problema, só copiar e colar o texto abaixo</p>
+            
+            <textarea id="copyText" readonly style="width: 100%; height: 100px;">
+00020101021126580014br.gov.bcb.pix0136a93fd8f0-a2bc-4bde-a6ba-a462f560eef55204000053039865802BR5918LEANDRO A DA SILVA6009SAO PAULO62070503***6304CEB8</textarea>
+            
+            <button id="copyButton">Copiar</button>
         </div>
     </div>
 </section>
+
+<script>
+    const copyButton = document.getElementById('copyButton');
+    const copyText = document.getElementById('copyText');
+    
+    copyButton.addEventListener('click', () => {
+        copyText.select();
+        document.execCommand('copy');
+    });
+</script>
+
 
 <section id="eng-pics" class="section-padding">
     <div class="container-fluid">
@@ -329,8 +349,8 @@
 
 <section id="map" class="section-padding">
     <div class="text-center">
-        <h3>How do I get there?</h3>
-        <p>It's way easier than you think!</p>
+        <h3>Como chegar?</h3>
+        <p>O Restaurante fica em Vinhedo, a mais ou menos 50 minutos de São Paulo!</p>
     </div>
     <div id="map-canvas"></div>
     <div id="map-content-wrapper" class="container pointer-events-none">
@@ -348,7 +368,7 @@
                             <p>Av. Independência, 1222 - Jardim Primavera, Vinhedo - SP, 13289-170</p>
                         </div>
                         <div class="col-md-6">
-                            <h5>Mr. Amit Roy</h5>
+                            <h5>Telefone</h5>
                             <p><i class="fa fa-mobile"></i> <a href="tel://+55 19992798611">+55 19992798611</a><br>
                         </div>
                     </div>
