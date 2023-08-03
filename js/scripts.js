@@ -197,7 +197,7 @@ $(document).ready(function () {
             end: new Date('Sep 23, 2023 15:00'),
 
             // Event Address
-            address: 'Cibi Sana, Vinhedo',
+            address: 'Cibi Sana, Av. Independência, 1222 - Jardim Primavera, Vinhedo - SP, 13289-170, Brazil',
 
             // Event Description
             description: "Casamento Leandro e Paula"
