@@ -241,7 +241,7 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var location = {lat: -23.035507591831408, lng: -46.98498151268394};
+    var location = {lat: -23.0374866, lng: -46.9785464};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: location,
@@ -255,7 +255,7 @@ function initMap() {
 }
 
 function initBBSRMap() {
-    var la_fiesta = {lat: -23.035507591831408, lng: -46.98498151268394};
+    var la_fiesta = {lat: -23.0374866, lng: -46.9785464};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: la_fiesta,
